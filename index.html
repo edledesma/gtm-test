@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e7450da0-f975-4670-ae5d-5ea473da9f45"
         data-blockingmode="auto" type="text/javascript"></script>
+        <script>
+            window.addEventListener(
+                'CookiebotOnDialogDisplay',
+                function (e) {
+                    console.log('CookiebotOnDialogDisplay event fired');
+                },
+                false
+            );
+            </script>
 </head>
 
 <body>
